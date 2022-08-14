@@ -1,0 +1,72 @@
+ 
+body{
+ color: #222;
+ background: rgb(211, 193, 217);
+ text-align: center;
+
+}
+body ,h3,div,p,input{
+    margin: 0;
+    padding: 0;
+}
+
+.publicacion{
+     
+    display: block;
+    text-align: center;  
+    
+    
+}
+.contenido{
+    margin-left: 15px;
+ 
+    border-left: 2px solid #2cd;
+}
+.publicaciones{
+    text-align: center;
+    animation: aparecer 1s forwards 0.5s;  
+}
+p{
+    margin-left: 18px;
+    margin-right: 7px;
+    text-align: left;
+}
+.mensajeUltimos{
+
+    font-size: 12px;
+}
+h3{
+    text-decoration: underline;
+    color: #5ad;
+}
+.nombre,.comentarios{
+    margin-left: 15px;
+     text-align: left;
+
+     
+}
+ 
+.comentario{
+    width: 75%;
+
+
+}
+.enviar:hover{
+    cursor: pointer;
+    color: #5ad;
+}
+.enviar{
+
+    width: 20%;
+    height: 100%;
+    background: transparent;
+    border: none;
+}
+@keyframes aparecer {
+    from{
+      opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
